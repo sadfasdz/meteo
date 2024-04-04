@@ -59,7 +59,7 @@ capitalizeFistLetter("qeqeass");
   <div class="summary">
     <div
       :style="`
-        background-image: url('../weather-main/${weatherInfo?.weather[0].description}.png');
+        background-image: url('./weather-main/${weatherInfo?.weather[0].description}.png');
       `"
       class="pic-main"
     ></div>
